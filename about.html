@@ -76,17 +76,18 @@
         <p class="muted">Share a dish idea or a tip.</p>
 
         <form id="suggestForm" class="suggest-form" data-storage="suggestions_street2feast">
-          <label for="suggest-name">Your name</label>
-          <input id="suggest-name" name="name" type="text" required placeholder="e.g., Alex">
+  <label for="suggest-name">Your name</label>
+  <input id="suggest-name" name="name" type="text" class="form-control" required placeholder="e.g., Alex">
 
-          <label for="suggest-dish">Dish or place</label>
-          <input id="suggest-dish" name="dish" type="text" required placeholder="e.g., Jianbing / Wangfujing">
+  <label for="suggest-dish">Dish or place</label>
+  <input id="suggest-dish" name="dish" type="text" class="form-control" required placeholder="e.g., Jianbing / Wangfujing">
 
-          <label for="suggest-note">Note</label>
-          <textarea id="suggest-note" name="note" required placeholder="What should people try or know?"></textarea>
+  <label for="suggest-note">Note</label>
+  <textarea id="suggest-note" name="note" class="form-control" required placeholder="What should people try or know?"></textarea>
 
-          <button class="btn" type="submit">Submit</button>
-        </form>
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
 
         <div class="reviews" id="suggestions" aria-live="polite"></div>
       </section>
